@@ -1,0 +1,3 @@
+Loaded X model (--x-load) from trained/menace-100.json
+Loaded O model (--o-load) from trained/menace-100-sym.json
+Duel complete. X wins=5331 O wins=3139 draws=1530

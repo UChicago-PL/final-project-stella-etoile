@@ -1,0 +1,26 @@
+cabal-version:       3.0
+name:                menace-hs
+version:             0.1.0.0
+build-type:          Simple
+
+executable menace-hs
+  hs-source-dirs:    app, src
+  main-is:           Main.hs
+  other-modules:
+      Menace.Types,
+    Menace.Board,
+    Menace.Symmetry,
+    Menace.Engine,
+    Menace.Persist
+  default-language:  Haskell2010
+  ghc-options:       -Wall -O1
+  build-depends:
+      base >=4.14 && <5,
+    containers,
+    random,
+    bytestring,
+    aeson,
+    text,
+    optparse-applicative,
+    ansi-terminal,
+    colour
