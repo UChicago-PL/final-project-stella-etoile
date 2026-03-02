@@ -53,8 +53,6 @@ Available commands:
   duel                     MENACE vs MENACE (no learning)
 ```
 
-\newpage
-
 ## Design and Organization
 
 The project is organized into the following files: 
@@ -153,8 +151,6 @@ Configurable parameters include:
 - Save/load file paths  
 
 
-\newpage
-
 ## Training
 
 ```sh
@@ -199,9 +195,6 @@ This project incorporates several functional programming techniques practiced in
 - Pure state transitions  
 - Higher-order functions (`foldl`)  
 - Monadic randomness (`StdGen`)  
-
-
-\newpage                                                                                           
 
 ---
 
@@ -325,8 +318,6 @@ python3 run_menace_stats.py \
 The Python visualisation script was developed with the assistance of ChatGPT. Specifically, ChatGPT helped with designing the heatmap graphic and basically most of the auxillary program that is just an extension to the Haskell project.
 
 All core MENACE logic, reinforcement learning implementation, symmetry handling, and duel mode were written independently in Haskell. ChatGPT was used only as a productivity aid for generating graphing code and refining visualisation structure.
-
-\newpage 
 
 ## Benchmark Result
 
