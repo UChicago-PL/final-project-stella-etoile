@@ -228,6 +228,17 @@ An example output looks like the following:
 Duel complete. X wins=696 O wins=20 draws=284
 ```
 
+```sh
+
+cabal run menace-hs -- duel
+  --x-load trained/menace-1000-sym.json
+  --o-load trained/menace-50000-sym.json
+  --games 10000
+  --seed 1
+  --symmetry
+
+```
+
 ---
 
 ## Automated Benchmarking Tool (Python)
